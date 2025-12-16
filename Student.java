@@ -1,10 +1,12 @@
 public class Student {
     private String name;
     private String id;
+    private String Age;
 
-    public Student(String name, String id) {
+    public Student(String name, String id, String Age) {
         this.name = name;
         this.id = id;
+        this.Age = Age;
     }
 
     public void setName(String name){
@@ -28,4 +30,5 @@ public class Student {
     public void printId() {
         System.out.println(this.id);
     }
+    public void printAge(){System.out.println(Age);}
 }

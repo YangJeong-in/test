@@ -1,11 +1,12 @@
-public class School {
+public class Student {
     private String name;
-    private String id;
+    private int id;
 
-    public School(String name, String id) {
+    public Student(String name, String id) {
         this.name = name;
         this.id = id;
     }
+
     public void setName(String name){
         this.name=name;
     }

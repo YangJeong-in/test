@@ -1,8 +1,9 @@
-public class School {
+public class Teacher {
     private String name;
     private String id;
+    private Integer Age;
 
-    public School(String name, String id) {
+    public Teacher(String name, String id) {
         this.name = name;
         this.id = id;
     }

@@ -1,6 +1,6 @@
 public class Student {
     private String name;
-    private int id;
+    private String id;
 
     public Student(String name, String id) {
         this.name = name;
@@ -21,11 +21,11 @@ public class Student {
     public String getID(){
         return this.id;
     }
-    public void printCName() {
+    public void printName() {
         System.out.println(this.name);
     }
 
-    public void printCId() {
+    public void printId() {
         System.out.println(this.id);
     }
 }

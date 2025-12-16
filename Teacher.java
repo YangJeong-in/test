@@ -21,11 +21,11 @@ public class Teacher {
     public String getID(){
         return this.id;
     }
-    public void printCName() {
+    public void printName() {
         System.out.println(this.name);
     }
 
-    public void printCId() {
+    public void printId() {
         System.out.println(this.id);
     }
 }
